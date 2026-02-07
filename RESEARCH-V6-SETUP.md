@@ -4,7 +4,7 @@ This document describes the setup of the Research-V6 branch forked from the upst
 
 ## Overview
 
-The Research-V6 branch has been created from the upstream repository (dspinellis/unix-history-repo) to track the Research V6 Unix release from May 1975.
+The Research-V6 branch has been created from the upstream repository (dspinellis/unix-history-repo) to track the Research V6 Unix release from July 1975.
 
 ## Setup Steps Performed
 
@@ -49,5 +49,5 @@ git push origin Research-V6:Research-V6
 ## Notes
 
 - The upstream repository contains the full history of Unix from 1970 to 2025
-- Research V6 (May 1975) is one of the earliest Unix releases with complete source code
+- Research V6 (July 1975) is one of the earliest Unix releases with complete source code
 - The repository includes attribution to original authors like Ken Thompson and Dennis Ritchie
