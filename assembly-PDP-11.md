@@ -52,5 +52,28 @@ Exception: `add` and `sub` are word-only instructions
 - **`bic A, B` (bit clear):** store (B & ~A) to B.
 - **`bis A, B` (bit set):** store (B | A) to B.
 
+(compare instructions)
+
+- **`cmp A B` (compare):** calculate A - B and set zero flag, negative flag, and overflow flag according to the result.
+- **`tst A` (test):** calculate A - 0 and set zero flag
+
 (branch instructions)
+
+- **`beq A` (branch if equal):** jump to A when zero flag is set.
+- **`bne A` (branch if equal):** jump to A when zero flag is not set.
+- **`bge A` (branch if greater than or equal):** jump to A when negative flag equals to overflow flag.
+- **`blt A` (branch if less than):** jump to A when negative flag not equals to overflow flag.
+- **`blo A` (branch if less than unsigned):** 
+- **`bhis A` (branch if greater than unsigned):**
+- **`br A` (branch relative):**
+- **`jmp A` (jump):**
+- **`jsr Rn, label` (jump save return):**
+- **`rts Rn` (return to saved):**
+- **`rti` (return from interrupt):**
+- **`sys` (system trap):**
+
+
+
+
+
 
